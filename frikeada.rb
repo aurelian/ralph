@@ -21,8 +21,6 @@ generate_quiz interaction, 4
 
 interaction.response_to(:grid, :down) do |interaction, action|
 
-  puts $quiz.inspect
-
   foo= {
     :x => action[:x],
     :y => action[:y]
